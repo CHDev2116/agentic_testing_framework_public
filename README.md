@@ -22,10 +22,25 @@ python3 run_client.py
 
 See [`examples/mock_api_roundtrip/README.md`](examples/mock_api_roundtrip/README.md) for details.
 
-## Relationship to technical articles
+## Linking from Medium or LinkedIn
 
-Long-form posts (e.g. on Medium) can **link here** as the canonical place for commands, contracts, and reproducible steps. This repo is the stable “home” for anything that should stay versioned with git.
+Use this repo as the **canonical “home”** for anything that should stay versioned: full command sequences, JSON contracts, and the runnable example. In articles, a practical split is:
+
+| Channel | What to put there |
+|---------|-------------------|
+| **Medium / blog** | Narrative, diagrams, trade-offs, screenshots; **link out** for steps that must stay copy-paste accurate. |
+| **LinkedIn** | Short hook + 3–6 bullets; **one primary link** (usually `docs/integrator-guide.md` or this README). |
+
+**Stable deep links** (replace `OWNER` and `REPO` after you publish on GitHub):
+
+- Integrator guide: `https://github.com/OWNER/REPO/blob/main/docs/integrator-guide.md`
+- Inference contract: `https://github.com/OWNER/REPO/blob/main/docs/inference-contract.md`
+- Docs index: `https://github.com/OWNER/REPO/blob/main/docs/README.md`
+- Minimal example (folder): `https://github.com/OWNER/REPO/tree/main/examples/mock_api_roundtrip`
+- Example README (run + troubleshoot): `https://github.com/OWNER/REPO/blob/main/examples/mock_api_roundtrip/README.md`
+
+**Tip:** In LinkedIn, prefer linking to a **specific file** (e.g. the integrator guide) so readers land directly on reproducible steps; in Medium, sprinkle the same links at the end of each major section so skimmers still find the repo.
 
 ## License
 
-Specify your license in a `LICENSE` file before publishing (e.g. MIT, Apache-2.0). This stub does not ship a license file by default.
+This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE).

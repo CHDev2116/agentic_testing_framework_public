@@ -5,4 +5,16 @@
 | [`integrator-guide.md`](integrator-guide.md) | ~3-minute path: run the minimal example, understand the HTTP payload |
 | [`inference-contract.md`](inference-contract.md) | Stable fields third-party backends should return (`decision`, `code`, `msg`, `backend`) |
 
-When you migrate technical articles from LinkedIn / Medium, add links here or add new pages under `docs/` and list them in this table.
+## External articles (Medium / LinkedIn → canonical docs)
+
+| Title | Channel | Link to article |
+|-------|---------|-----------------|
+| *(add your posts here)* | | |
+
+When you publish or migrate a post:
+
+1. Add a row above (title, channel, **URL to the article**).
+2. In the article body, link **back** to this repo so steps stay versioned:
+   - [`integrator-guide.md`](integrator-guide.md) — runnable path + payload
+   - [`inference-contract.md`](inference-contract.md) — `decision` / `code` / `msg` / `backend`
+   - [`../examples/mock_api_roundtrip/README.md`](../examples/mock_api_roundtrip/README.md) — server + client + troubleshooting
