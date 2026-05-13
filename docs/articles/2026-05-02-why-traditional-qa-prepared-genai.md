@@ -1,11 +1,11 @@
 ---
 title: "Why 13 Years of Traditional QA Prepared Me for the “Chaos” of GenAI"
-date: 2026-05-13
+date: 2026-05-02
 ---
 
 # Why 13 Years of Traditional QA Prepared Me for the “Chaos” of GenAI
 
-**Published:** 2026-05-13  
+**Published:** 2026-05-02  
 **Audience:** QA engineers, ML/GenAI integrators, and anyone shipping probabilistic systems.
 
 After 13 years in software quality assurance, I realized something unexpected: my most valuable skill was not just finding bugs in deterministic systems—it was **building trust in systems that are supposed to behave consistently**.

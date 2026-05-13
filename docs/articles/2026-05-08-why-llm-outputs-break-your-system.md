@@ -1,11 +1,11 @@
 ---
 title: "Why LLM Outputs Break Your System — and How a QA Mindset Fixes It"
-date: 2026-05-13
+date: 2026-05-08
 ---
 
 # Why LLM Outputs Break Your System — and How a QA Mindset Fixes It
 
-**Published:** 2026-05-13  
+**Published:** 2026-05-08  
 **Audience:** Engineers integrating LLMs into production pipelines, agentic workflows, and RAG systems.
 
 If you have ever integrated an LLM into a production pipeline, you have likely faced the **probabilistic nightmare**: the prompt is the same, the model is the same, but suddenly the system is down.
