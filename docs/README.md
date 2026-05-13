@@ -11,6 +11,7 @@
 | Title | Channel | Link to article |
 |-------|---------|-----------------|
 | Why 13 Years of Traditional QA Prepared Me for the “Chaos” of GenAI | GitHub (repo) | [2026-05-13-why-traditional-qa-prepared-genai.md](articles/2026-05-13-why-traditional-qa-prepared-genai.md) |
+| Why LLM Outputs Break Your System — and How a QA Mindset Fixes It | GitHub (repo) | [2026-05-13-why-llm-outputs-break-your-system.md](articles/2026-05-13-why-llm-outputs-break-your-system.md) |
 
 When you publish or migrate a post:
 
