@@ -26,7 +26,7 @@ Most teams still try to evaluate AI using a black-box mindset.
 
 ## A different approach: closed-loop reliability
 
-I treat GenAI as a **closed-loop reliability engineering** problem. That mindset led me to build **PixelQA-Llama**.
+I treat GenAI as a **closed-loop reliability engineering** problem. That mindset led me to build **Agentic Testing Framework**.
 
 The goal was not simply to check whether a model can “pass” a test, but to understand deeper system behavior:
 
@@ -46,11 +46,11 @@ We do not just detect failures—we define:
 
 Traditional QA is not outdated. It is the **missing layer of discipline** that prevents GenAI systems from drifting into unpredictability.
 
-## PixelQA-Llama (Quantized Vision QA)
+## Agentic Testing Framework (Quantized Vision QA)
 
-PixelQA-Llama is a configuration-driven pipeline: CLI orchestration, vision metrics and optional image processing, multi-backend inference, decision arbitration, failure memory (Chroma), and JSON reporting (batch, comparisons, repeatability, performance).
+**Agentic Testing Framework** is a configuration-driven pipeline: CLI orchestration, vision metrics and optional image processing, multi-backend inference, decision arbitration, failure memory (Chroma), and JSON reporting (batch, comparisons, repeatability, performance).
 
-![PixelQA-Llama architecture diagram](assets/pixelqa-llama-architecture.png)
+![Agentic Testing Framework architecture diagram](assets/agentic-testing-framework-architecture.png)
 
 The same flow as a Mermaid overview (for readers who prefer text in-repo):
 

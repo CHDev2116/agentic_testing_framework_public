@@ -18,7 +18,7 @@ LLM outputs are **probabilistic**, not structural. You expect clean JSON for dow
 
 ## The fix: inference provider abstraction
 
-In **PixelQA-Llama** (an agentic testing framework), the approach moved away from “prompting and praying.” A dedicated **parsing and normalization** layer treats LLM output as **untrusted, unstructured text**.
+In **Agentic Testing Framework**, the approach moved away from “prompting and praying.” A dedicated **parsing and normalization** layer treats LLM output as **untrusted, unstructured text**.
 
 ### Three-step validation workflow
 
@@ -30,7 +30,7 @@ In **PixelQA-Llama** (an agentic testing framework), the approach moved away fro
 
 A UI visualizes this transformation in real time.
 
-![PixelQA-Llama: baseline vs. AI pipeline comparison (score, confidence, label, latency)](assets/pixelqa-baseline-vs-ai-comparison.png)
+![Agentic Testing Framework: baseline vs. AI pipeline comparison (score, confidence, label, latency)](assets/agentic-testing-framework-baseline-vs-ai-comparison.png)
 
 **Baseline vs. AI pipeline:** In this run, the AI pipeline shows about **+8** points score delta versus the manual baseline. Latency is higher for the AI path (for example **1.76s** vs. **1.00s**), but the goal is to capture nuanced signal while keeping **Score**, **Confidence**, and **Labels** in a form the rest of the system can consume.
 
@@ -44,7 +44,7 @@ A UI visualizes this transformation in real time.
 
 To developers in the Taiwan and Greater China tech community: local industries are shifting hard toward agentic AI. How are you handling **output reliability** in RAG or agent workflows? Swap horror stories or best practices in the comments where you post this piece.
 
-Tags: #AI #LLM #AgenticAI #SoftwareEngineering #Python #DevRel #PixelQA #GenerativeAI #QA #TaiwanTech #TestAutomation
+Tags: #AI #LLM #AgenticAI #SoftwareEngineering #Python #DevRel #AgenticTestingFramework #GenerativeAI #QA #TaiwanTech #TestAutomation
 
 ## Canonical links in this repo
 

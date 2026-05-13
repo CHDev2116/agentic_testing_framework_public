@@ -2,6 +2,8 @@
 
 This repository is the **public slice** of work on a configuration-driven, multi-backend image QA / release-gating pipeline. It exists so integrators and readers can clone **documentation and a minimal runnable example** without depending on the full private codebase.
 
+**Naming:** All articles and docs here use **Agentic Testing Framework** as the product name (including earlier narrative drafts that referred to the same system under other working titles).
+
 > **Note:** The complete framework (batch CLI, Streamlit demo, full test suite, and CI) may live in a separate private repository. What you find here is intentionally **small, honest, and reproducible**—README, `docs/`, and one example you can run locally.
 
 ## Contents
