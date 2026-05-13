@@ -2,6 +2,7 @@
 
 | Document | Description |
 |----------|-------------|
+| [`articles/README.md`](articles/README.md) | **How to move or cross-post** technical writing from Medium/LinkedIn into this repo |
 | [`integrator-guide.md`](integrator-guide.md) | ~3-minute path: run the minimal example, understand the HTTP payload |
 | [`inference-contract.md`](inference-contract.md) | Stable fields third-party backends should return (`decision`, `code`, `msg`, `backend`) |
 
