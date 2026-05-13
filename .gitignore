@@ -1,0 +1,12 @@
+# Bytecode / local venv
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Env files (never commit secrets)
+.env
+.env.*
