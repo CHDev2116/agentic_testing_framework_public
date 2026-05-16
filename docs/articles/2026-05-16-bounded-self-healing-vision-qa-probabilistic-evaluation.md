@@ -1,11 +1,11 @@
 ---
 title: "Beyond Pass/Fail: Bounded Self-Healing for Visual QA"
-date: 2026-05-13
+date: 2026-05-16
 ---
 
 # Beyond Pass/Fail: Bounded Self-Healing for Visual QA
 
-**Published:** 2026-05-13  
+**Published:** 2026-05-16  
 **Audience:** QA engineers, ML integrators, and anyone shipping vision pipelines on probabilistic models.
 
 > The prompt did not change.  
