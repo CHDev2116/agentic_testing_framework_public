@@ -12,6 +12,7 @@
 |-------|---------|-----------------|
 | Why 13 Years of Traditional QA Prepared Me for the “Chaos” of GenAI | GitHub (repo) | [2026-05-02-why-traditional-qa-prepared-genai.md](articles/2026-05-02-why-traditional-qa-prepared-genai.md) |
 | Why LLM Outputs Break Your System — and How a QA Mindset Fixes It | GitHub (repo) | [2026-05-08-why-llm-outputs-break-your-system.md](articles/2026-05-08-why-llm-outputs-break-your-system.md) |
+| Beyond Pass/Fail: Bounded Self-Healing for Visual QA | GitHub (repo) | [2026-05-13-bounded-self-healing-vision-qa-probabilistic-evaluation.md](articles/2026-05-13-bounded-self-healing-vision-qa-probabilistic-evaluation.md) |
 
 When you publish or migrate a post:
 

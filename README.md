@@ -41,6 +41,7 @@ Use this repo as the **canonical “home”** for anything that should stay vers
 - Docs index: [docs/README.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/README.md)
 - Article — *Why 13 Years of Traditional QA Prepared Me for the “Chaos” of GenAI*: [docs/articles/2026-05-02-why-traditional-qa-prepared-genai.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-05-02-why-traditional-qa-prepared-genai.md)
 - Article — *Why LLM Outputs Break Your System — and How a QA Mindset Fixes It*: [docs/articles/2026-05-08-why-llm-outputs-break-your-system.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-05-08-why-llm-outputs-break-your-system.md)
+- Article — *Beyond Pass/Fail: Bounded Self-Healing for Visual QA*: [docs/articles/2026-05-13-bounded-self-healing-vision-qa-probabilistic-evaluation.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-05-13-bounded-self-healing-vision-qa-probabilistic-evaluation.md)
 - Minimal example (folder): [examples/mock_api_roundtrip/](https://github.com/CHDev2116/agentic_testing_framework_public/tree/main/examples/mock_api_roundtrip)
 - Example README (run + troubleshoot): [examples/mock_api_roundtrip/README.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/examples/mock_api_roundtrip/README.md)
 
