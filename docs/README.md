@@ -13,6 +13,7 @@
 | Why 13 Years of Traditional QA Prepared Me for the “Chaos” of GenAI | GitHub (repo) | [2026-05-02-why-traditional-qa-prepared-genai.md](articles/2026-05-02-why-traditional-qa-prepared-genai.md) |
 | Why LLM Outputs Break Your System — and How a QA Mindset Fixes It | GitHub (repo) | [2026-05-08-why-llm-outputs-break-your-system.md](articles/2026-05-08-why-llm-outputs-break-your-system.md) |
 | Beyond Pass/Fail: Bounded Self-Healing for Visual QA | GitHub (repo) | [2026-05-16-bounded-self-healing-vision-qa-probabilistic-evaluation.md](articles/2026-05-16-bounded-self-healing-vision-qa-probabilistic-evaluation.md) |
+| Engineering the Inference Contract: Why decision, code, msg, and backend | GitHub (repo) | [2026-05-23-inference-contract-engineering.md](articles/2026-05-23-inference-contract-engineering.md) |
 
 When you publish or migrate a post:
 
