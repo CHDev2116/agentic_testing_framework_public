@@ -14,6 +14,8 @@
 | Why LLM Outputs Break Your System — and How a QA Mindset Fixes It | GitHub (repo) | [2026-05-08-why-llm-outputs-break-your-system.md](articles/2026-05-08-why-llm-outputs-break-your-system.md) |
 | Beyond Pass/Fail: Bounded Self-Healing for Visual QA | GitHub (repo) | [2026-05-16-bounded-self-healing-vision-qa-probabilistic-evaluation.md](articles/2026-05-16-bounded-self-healing-vision-qa-probabilistic-evaluation.md) |
 | Engineering the Inference Contract: Why decision, code, msg, and backend | GitHub (repo) | [2026-05-23-inference-contract-engineering.md](articles/2026-05-23-inference-contract-engineering.md) |
+| From Inference Labels to Release Gates: GO, REVIEW, and NO_GO | GitHub (repo) | [2026-05-30-from-inference-labels-to-release-gates.md](articles/2026-05-30-from-inference-labels-to-release-gates.md) |
+| What the Public Repo Actually Gives You — Public Slice vs. Full Framework | GitHub (repo) | [2026-06-06-public-slice-vs-full-framework.md](articles/2026-06-06-public-slice-vs-full-framework.md) |
 
 When you publish or migrate a post:
 

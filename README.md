@@ -72,6 +72,8 @@ Use this repo as the **canonical “home”** for anything that must stay copy-p
 - Article — *Why LLM Outputs Break Your System — and How a QA Mindset Fixes It*: [docs/articles/2026-05-08-why-llm-outputs-break-your-system.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-05-08-why-llm-outputs-break-your-system.md)
 - Article — *Beyond Pass/Fail: Bounded Self-Healing for Visual QA*: [docs/articles/2026-05-16-bounded-self-healing-vision-qa-probabilistic-evaluation.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-05-16-bounded-self-healing-vision-qa-probabilistic-evaluation.md)
 - Article — *Engineering the Inference Contract*: [docs/articles/2026-05-23-inference-contract-engineering.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-05-23-inference-contract-engineering.md)
+- Article — *From Inference Labels to Release Gates*: [docs/articles/2026-05-30-from-inference-labels-to-release-gates.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-05-30-from-inference-labels-to-release-gates.md)
+- Article — *Public Slice vs. Full Framework*: [docs/articles/2026-06-06-public-slice-vs-full-framework.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/docs/articles/2026-06-06-public-slice-vs-full-framework.md)
 - Minimal example (folder): [examples/mock_api_roundtrip/](https://github.com/CHDev2116/agentic_testing_framework_public/tree/main/examples/mock_api_roundtrip)
 - Example README (run + troubleshoot): [examples/mock_api_roundtrip/README.md](https://github.com/CHDev2116/agentic_testing_framework_public/blob/main/examples/mock_api_roundtrip/README.md)
 
