@@ -56,4 +56,4 @@ If the environment variable `MOCK_INFER_API_KEY` is set, the server requires:
 ## Next
 
 - Read [`inference-contract.md`](inference-contract.md).  
-- When your technical articles move here, link each article from [`README.md`](README.md) or from this index.
+- See [`README.md`](README.md) for the article index and links to the [full framework](https://github.com/CHDev2116/agentic_testing_framework).

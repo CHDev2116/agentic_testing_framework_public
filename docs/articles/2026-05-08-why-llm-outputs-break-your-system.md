@@ -40,10 +40,6 @@ A UI visualizes this transformation in real time.
 
 **Reliability** is the bridge between a cool AI demo and a robust AI product. Traditional test automation reinforces one rule: **control the inputs, but never trust the outputs.**
 
----
-
-To developers in the Taiwan and Greater China tech community: local industries are shifting hard toward agentic AI. How are you handling **output reliability** in RAG or agent workflows? Swap horror stories or best practices in the comments where you post this piece.
-
 Tags: #AI #LLM #AgenticAI #SoftwareEngineering #Python #DevRel #AgenticTestingFramework #GenerativeAI #QA #TaiwanTech #TestAutomation
 
 ## Canonical links in this repo
@@ -51,4 +47,4 @@ Tags: #AI #LLM #AgenticAI #SoftwareEngineering #Python #DevRel #AgenticTestingFr
 - [Integrator guide](../integrator-guide.md) — runnable path and HTTP payload
 - [Inference contract](../inference-contract.md) — `decision`, `code`, `msg`, `backend`
 - [Minimal mock API example](../../examples/mock_api_roundtrip/README.md) — server, client, troubleshooting
-- [Docs index](../README.md) — external articles table and publishing notes
+- [Docs index](../README.md) — article index

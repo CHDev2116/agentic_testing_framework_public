@@ -139,4 +139,4 @@ Tags: #AI #LLM #GenAI #Testing #QA #MachineLearning #Ollama #LlamaCpp #AIEnginee
 - [Integrator guide](../integrator-guide.md) — runnable path and HTTP payload  
 - [Inference contract](../inference-contract.md) — `decision`, `code`, `msg`, `backend`  
 - [Minimal mock API example](../../examples/mock_api_roundtrip/README.md) — server, client, troubleshooting  
-- [Docs index](../README.md) — external articles table and publishing notes  
+- [Docs index](../README.md) — article index  

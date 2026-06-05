@@ -320,7 +320,7 @@ Example: `decision: Blurry` with `code: SUCCESS_200` is a **successful** inferen
 
 ## Prove it locally: mock roundtrip
 
-The public repo ships a **stdlib-only** server and client so you can verify wiring without the private monorepo.
+The public repo ships a **stdlib-only** server and client so you can verify wiring before touching the [full framework](https://github.com/CHDev2116/agentic_testing_framework).
 
 **Start server** (`examples/mock_api_roundtrip/mock_server.py`):
 
