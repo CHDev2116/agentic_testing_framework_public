@@ -25,5 +25,3 @@ When you publish or migrate a post:
    - [`integrator-guide.md`](integrator-guide.md) — runnable path + payload
    - [`inference-contract.md`](inference-contract.md) — `decision` / `code` / `msg` / `backend`
    - [`../examples/mock_api_roundtrip/README.md`](../examples/mock_api_roundtrip/README.md) — server + client + troubleshooting
-
-(For Medium/LinkedIn-first posts, you can keep the long post off-repo and add only a short stub `.md` under [`articles/`](articles/) plus a link in the table.)
