@@ -8,7 +8,7 @@ date: 2026-06-06
 **Published:** 2026-06-06  
 **Audience:** Integrators who found [agentic_testing_framework_public](https://github.com/CHDev2116/agentic_testing_framework_public) on GitHub and want to know—honestly—what to run here vs. what still lives in the full pipeline.
 
-This article maps what to run in this repository versus what lives in the [full framework](https://github.com/CHDev2116/agentic_testing_framework).
+This article maps what to run in this repository versus what belongs to the **full Agentic Testing Framework pipeline**, which is **not published in this public slice**.
 
 **Series so far:**
 
@@ -70,10 +70,10 @@ The root README states this plainly. Worth repeating because expectations drift:
 |------------|------------------|--------------------------------------|
 | Release gates `GO` / `REVIEW` / `NO_GO` | Documented, not executed in mock | Evaluation / `arbitrate_decision` |
 | Bounded self-healing (brighten, sharpen, re-run) | Described in articles | Engine + eval loop with retry caps |
-| Batch CLI over large folders | No | [`agentic_testing_framework`](https://github.com/CHDev2116/agentic_testing_framework) |
-| Streamlit comparison UI | No | [`agentic_testing_framework`](https://github.com/CHDev2116/agentic_testing_framework) |
-| Failure memory (Chroma) | No | [`agentic_testing_framework`](https://github.com/CHDev2116/agentic_testing_framework) |
-| Full test suite + CI | Minimal example only | [`agentic_testing_framework`](https://github.com/CHDev2116/agentic_testing_framework) |
+| Batch CLI over large folders | No | Full framework pipeline (not in this repo) |
+| Streamlit comparison UI | No | Full framework pipeline (not in this repo) |
+| Failure memory (Chroma) | No | Full framework pipeline (not in this repo) |
+| Full test suite + CI | Minimal example only | Full framework pipeline (not in this repo) |
 
 If you clone public expecting a one-command batch over 10k images, you will feel the repo is “incomplete.” **It is complete for its job: validate the inference boundary.**
 
@@ -120,7 +120,7 @@ No. The contract and example are the **integration source of truth**. Articles l
 You can ship **integration tests** and **adapter development**. Production asset decisions still need your model, metrics, and gate policy—the mock is a stub, not a VLM.
 
 **“Why two repositories?”**  
-This slice stays minimal and reproducible for integrators. Batch orchestration, evaluation, and CI live in [`agentic_testing_framework`](https://github.com/CHDev2116/agentic_testing_framework). The split is documented so expectations stay clear.
+This slice stays minimal and reproducible for integrators. Batch orchestration, evaluation, and CI belong to the **full framework pipeline**, which is maintained separately and **not published here**. The split is documented so expectations stay clear.
 
 **“Where do I start?”**  
 mock → contract → your backend → policy. Local inference (Ollama, llama.cpp) fits **behind** the adapter; the public surface does not care which engine you use as long as normalization is consistent.
@@ -141,5 +141,4 @@ Tags: #OpenSource #QA #AI #PlatformEngineering #TestAutomation #AgenticAI #Softw
 - [Integrator guide](../integrator-guide.md)  
 - [Inference contract](../inference-contract.md)  
 - [Mock API roundtrip](../../examples/mock_api_roundtrip/README.md)  
-- [Full framework](https://github.com/CHDev2116/agentic_testing_framework)  
 - [Docs index](../README.md) — article index

@@ -2,7 +2,7 @@
 
 **Multi-backend image QA with a stable inference contract and release-style gates (`GO` / `REVIEW` / `NO_GO`) in the full pipeline.**
 
-This repository is the **public slice**: versioned docs, a normative JSON contract, and a **stdlib-only** mock roundtrip you can run in minutes. Batch CLI, evaluation, and CI live in the [full framework](https://github.com/CHDev2116/agentic_testing_framework).
+This repository is the **public slice**: versioned docs, a normative JSON contract, and a **stdlib-only** mock roundtrip you can run in minutes. Batch CLI, evaluation, and CI are part of the **full Agentic Testing Framework** codebase, which is **not published in this repository**.
 
 ---
 
@@ -29,7 +29,7 @@ python3 run_client.py    # terminal 2 → expect decision + code in JSON
 
 > **Scope:** Inference here answers *what the model thinks about the asset* (`Optimal`, `Blurry`, …). **Release gates** (`GO` / `REVIEW` / `NO_GO`) live in the evaluation layer of the full framework (not duplicated in this minimal example).
 
-> **Full framework:** Batch CLI, Streamlit demo, full test suite, and CI are in [`agentic_testing_framework`](https://github.com/CHDev2116/agentic_testing_framework). This repo stays **small and reproducible** on purpose.
+> **Full framework:** Batch CLI, Streamlit demo, full test suite, and CI belong to the complete Agentic Testing Framework pipeline, **outside this public slice**. This repo stays **small and reproducible** on purpose.
 
 **Naming:** All articles and docs here use **Agentic Testing Framework** as the product name.
 
@@ -57,7 +57,7 @@ See [`examples/mock_api_roundtrip/README.md`](examples/mock_api_roundtrip/README
 
 | Resource | Location |
 |----------|----------|
-| Full framework (batch CLI, eval, CI) | [`agentic_testing_framework`](https://github.com/CHDev2116/agentic_testing_framework) |
+| Full framework (batch CLI, eval, CI) | Not in this repo — see [public slice vs. full framework](docs/articles/2026-06-06-public-slice-vs-full-framework.md) |
 | Docs index | [`docs/README.md`](docs/README.md) |
 | Integrator guide | [`docs/integrator-guide.md`](docs/integrator-guide.md) |
 | Inference contract | [`docs/inference-contract.md`](docs/inference-contract.md) |

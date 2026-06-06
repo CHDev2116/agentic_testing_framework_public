@@ -130,7 +130,7 @@ Inputs commonly include:
 2. **Engine metrics** — deterministic measurements from `vision_math` (brightness, sharpness, etc.) sent with the request (`photo_path`, `metrics`, `thresholds` in the mock API shape).  
 3. **Thresholds and SKU policy** — per-run or per-config limits, not hard-coded in the model prompt.  
 4. **Repeatability / comparison context** — same asset across backends or across remediation attempts; rankings and deltas feed **REVIEW** more often than one-off blur.  
-5. **Failure memory (optional)** — prior similar failures can elevate severity or route to review queues in the [full framework](https://github.com/CHDev2116/agentic_testing_framework).
+5. **Failure memory (optional)** — prior similar failures can elevate severity or route to review queues in the full framework pipeline (not in this public slice).
 
 Outputs are **release gates** plus structured JSON reports (batch summaries, comparisons, repeatability, performance)—the persistence layer in the architecture diagram from the [intro article](2026-05-02-why-traditional-qa-prepared-genai.md).
 
@@ -185,7 +185,7 @@ This repository stays small on purpose. You can already:
 2. **Document your gate policy** — even a table like the worked examples above, keyed off `metrics` + `decision`, gives release owners a shared language before touching the full framework batch CLI.  
 3. **CI-gate the contract** — merge checks on stable `code` and required keys; do **not** assert exact `msg` wording.
 
-What requires the **[full framework](https://github.com/CHDev2116/agentic_testing_framework)**: batch orchestration, `arbitrate_decision`, Streamlit comparisons, Chroma failure memory, and JSON reports with gate columns.
+What requires the **full framework pipeline** (not in this public repository): batch orchestration, `arbitrate_decision`, Streamlit comparisons, Chroma failure memory, and JSON reports with gate columns.
 
 The README states this honestly: inference here answers *what the model thinks*; **release gates** live downstream. This article is the map for that downstream—not a second contract duplicated in the mock server.
 

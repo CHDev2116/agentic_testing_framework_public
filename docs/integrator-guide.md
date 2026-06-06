@@ -56,4 +56,4 @@ If the environment variable `MOCK_INFER_API_KEY` is set, the server requires:
 ## Next
 
 - Read [`inference-contract.md`](inference-contract.md).  
-- See [`README.md`](README.md) for the article index and links to the [full framework](https://github.com/CHDev2116/agentic_testing_framework).
+- See [`README.md`](README.md) for the article index. The full batch pipeline is documented in [public slice vs. full framework](articles/2026-06-06-public-slice-vs-full-framework.md).
