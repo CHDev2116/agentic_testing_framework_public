@@ -16,3 +16,4 @@
 | Engineering the Inference Contract: Why decision, code, msg, and backend | [2026-05-23-inference-contract-engineering.md](articles/2026-05-23-inference-contract-engineering.md) |
 | From Inference Labels to Release Gates: GO, REVIEW, and NO_GO | [2026-05-30-from-inference-labels-to-release-gates.md](articles/2026-05-30-from-inference-labels-to-release-gates.md) |
 | What the Public Repo Actually Gives You — Public Slice vs. Full Framework | [2026-06-06-public-slice-vs-full-framework.md](articles/2026-06-06-public-slice-vs-full-framework.md) |
+| Gating Merges on the Inference Contract: CI Without GPUs or API Keys | [2026-06-13-gating-merges-on-inference-contract-ci.md](articles/2026-06-13-gating-merges-on-inference-contract-ci.md) |

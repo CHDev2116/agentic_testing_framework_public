@@ -26,6 +26,7 @@ python3 run_client.py    # terminal 2 → expect decision + code in JSON
 | ~3 min walkthrough | [`docs/integrator-guide.md`](docs/integrator-guide.md) |
 | Field semantics (normative) | [`docs/inference-contract.md`](docs/inference-contract.md) |
 | Why the contract exists (article) | [`docs/articles/2026-05-23-inference-contract-engineering.md`](docs/articles/2026-05-23-inference-contract-engineering.md) |
+| CI contract smoke (article + workflow) | [`docs/articles/2026-06-13-gating-merges-on-inference-contract-ci.md`](docs/articles/2026-06-13-gating-merges-on-inference-contract-ci.md) · [`bash examples/mock_api_roundtrip/ci_smoke.sh`](examples/mock_api_roundtrip/ci_smoke.sh) |
 
 > **Scope:** Inference here answers *what the model thinks about the asset* (`Optimal`, `Blurry`, …). **Release gates** (`GO` / `REVIEW` / `NO_GO`) live in the evaluation layer of the full framework (not duplicated in this minimal example).
 
@@ -40,7 +41,7 @@ python3 run_client.py    # terminal 2 → expect decision + code in JSON
 | Path | Purpose |
 |------|---------|
 | [`docs/`](docs/) | Integrator notes, **inference contract**, and versioned articles |
-| [`examples/mock_api_roundtrip/`](examples/mock_api_roundtrip/) | Minimal **mock HTTP server** + **stdlib client** for the `mock_api`-style JSON shape |
+| [`examples/mock_api_roundtrip/`](examples/mock_api_roundtrip/) | Mock HTTP server, client, and **CI contract smoke** (`ci_smoke.sh`) |
 
 ## Quick start (example only)
 
@@ -62,7 +63,8 @@ See [`examples/mock_api_roundtrip/README.md`](examples/mock_api_roundtrip/README
 | Integrator guide | [`docs/integrator-guide.md`](docs/integrator-guide.md) |
 | Inference contract | [`docs/inference-contract.md`](docs/inference-contract.md) |
 | Technical articles | [`docs/articles/`](docs/articles/) |
-| Mock API example | [`examples/mock_api_roundtrip/`](examples/mock_api_roundtrip/) |
+| Mock API example + CI smoke | [`examples/mock_api_roundtrip/`](examples/mock_api_roundtrip/) |
+| Article — *Gating merges on the inference contract* | [`docs/articles/2026-06-13-gating-merges-on-inference-contract-ci.md`](docs/articles/2026-06-13-gating-merges-on-inference-contract-ci.md) |
 
 ## License
 
